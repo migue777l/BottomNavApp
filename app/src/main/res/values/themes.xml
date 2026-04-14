@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.BottomNavApp" parent="Theme.AppCompat.Light.NoActionBar" />
+
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/mi_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.BottomNavApp</item>
+    </style>
+
+</resources>
